@@ -7,12 +7,12 @@
 
 int main() {
 
-    int Age = 23;
+    int Age = 22;
 
 
     printf("Hello Twitter, This is my first C programme ");
 
-    Age = 24;
+    Age = 23;
 
     printf("This is my new age: %d", Age);
 
