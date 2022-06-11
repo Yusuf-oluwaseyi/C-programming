@@ -17,5 +17,7 @@ int main() {
     float cars = 25.4;
     printf("\n%.2f", cars);
 
+    printf("\nPrint size of double = %zu", sizeof (number));
+
     return 0;
 }
