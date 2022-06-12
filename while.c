@@ -26,7 +26,7 @@ int main() {
     }
     */
 //    Multiplication table
-    int number;
+   /* int number;
 
     printf("Enter your number: \n");
     scanf("%d", &number);
@@ -35,9 +35,25 @@ int main() {
 
     while (count <= 12) {
         int product = number * count;
-        printf("%d\n", product);
+        // printf("%d\n", product);
+        printf("%d * %d = %d\n", number, count, product);
         count = count + 1;
     }
+    */
+
+   // Do while loop
+   //syntax do {
+    // body of loop
+// } while (condition);
+//    }
+    // until the condition is false body of loop continue to loop.
+
+    int count = 1;
+    do {
+        printf("%d\n", count);
+        count = count + 1;
+    } while (count < 5);
+    
 
 
     return 0;
