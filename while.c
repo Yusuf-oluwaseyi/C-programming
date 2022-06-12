@@ -21,6 +21,7 @@ int main() {
 
     while (count < 5) {
         printf("While loop is c\n");
+        printf("count = %d\n", count);
         count = count + 1;
     }
 
