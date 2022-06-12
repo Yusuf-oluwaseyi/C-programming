@@ -92,6 +92,15 @@ int main() {
     result = !(a == b);
     printf("!(a == b) is %d \n", result);
     */
+//comma operator and bitwise operators.
+
+    //&. <<, >>, ~, ^, |.
+    //the comma link related operations together.
+
+    //sizeof operatiors.
+    int l;
+
+    printf("size of l = %lu bytes\n", sizeof(l));
 
     return 0;
 }
