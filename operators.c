@@ -58,5 +58,40 @@ int main() {
     printf("%d <= %d is %d \n", a, b, a <= b);
     printf("%d <= %d is %d \n", a, c, a <= c);
 
+    //logical operators.
+    /*&&
+				Logical AND. True only if all operands are true
+				If c = 5 and d = 2 then, expression ((c==5) && (d>5)) equals to 0.
+		
+      ||
+				Logical OR. True only if either one operand is true
+				If c = 5 and d = 2 then, expression ((c==5) || (d>5)) equals to 1.
+		
+      !
+				Logical NOT. True only if the operand is 0
+				If c = 5 then, expression !(c==5) equals to 0.
+    */
+
+   int ade = 5, kunle = 5, ayo = 10;
+
+    int fee = (ade == kunle) && (ayo > kunle);
+    printf("(ade == kunle) && (ayo > kunle) is %d \n", fee);
+
+    /*result = (a == b) && (c < b);
+    printf("(a == b) && (c < b) is %d \n", result);
+
+    result = (a == b) || (c < b);
+    printf("(a == b) || (c < b) is %d \n", result);
+
+    result = (a != b) || (c < b);
+    printf("(a != b) || (c < b) is %d \n", result);
+
+    result = !(a != b);
+    printf("!(a != b) is %d \n", result);
+
+    result = !(a == b);
+    printf("!(a == b) is %d \n", result);
+    */
+
     return 0;
 }
