@@ -48,12 +48,30 @@ int main() {
 //    }
     // until the condition is false body of loop continue to loop.
 
-    int count = 1;
+   /* int count = 1;
     do {
         printf("%d\n", count);
         count = count + 1;
     } while (count < 5);
-    
+*/
+    /*int count = 5;
+    do {
+        printf("%d\n", count);
+        count = count + 1;
+    } while (count < 5);
+    */
+
+   double number, sum = 0;
+
+  // the body of the loop is executed at least once
+  do {
+    printf("Enter a number: ");
+    scanf("%lf", &number);
+    sum += number;
+  }
+  while(number != 0.0);
+
+  printf("Sum = %.2lf\n",sum);
 
 
     return 0;
