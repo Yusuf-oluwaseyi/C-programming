@@ -8,17 +8,17 @@ int main(){
     //if just printing one c or working with one
     //no need for {}
 
-    if (test..condition) {
+    /*if (test..condition) {
         //statement 
-    }
+    }*/
 
 
-    int age;
+    int sage;
 
-    printf("Enter your age: \n");
-    scanf("%d", &age);
+    printf("Enter your sage: \n");
+    scanf("%d", &sage);
 
-    if (age >= 18){
+    if (sage >= 18){
         printf("You are eligible to vote");
     }
     else {
@@ -35,8 +35,6 @@ int main(){
     if (age > 150){
         //if (age > 150 || age < 0)
         printf("Invalid age to vote");
-    }
-
     }
     else if (age >= 18) {
         printf("You are eligible to vote");
