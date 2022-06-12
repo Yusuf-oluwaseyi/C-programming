@@ -7,13 +7,15 @@
 int main() {
 
     //for (initializationExpression; testExpression; UpdateExpression){}
-    /*int i;
+    int i = 0;
 
-    for (int i = 0; i < 10; i++) {
-        printf("%d\n", i);
+    for (int i = 0; i < 10; i++)
+    {
+        printf("I love anime\n", i);
 
     }
-*/
+
+
     //Practical example.
     int sum = 0;
 

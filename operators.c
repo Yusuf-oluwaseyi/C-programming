@@ -12,7 +12,11 @@
 
 int main() {
 
-    int x = 12;
+    /*int y = 12 * 4 + (4 - 3) / 7;
+    double result = y;
+    printf("Print result %.4lf\n", result);*/
+
+    /*int x = 12;
     //addition
     int result = x + 22;
     printf("%d\n", result);
@@ -21,6 +25,7 @@ int main() {
     int y = 30;
     int axis = y - 10;
     printf("%d\n", axis);
+    
 
     // same is done for all operators.
     // increments and decrements.
@@ -29,10 +34,10 @@ int main() {
     and the increase or decrease.
     */
 
-   int seat = 5;
+   /*int seat = 5;
 
    int seats = seat++;
-   printf("There are %d lefts");
+   printf("There are %d lefts");*/
 
    /* Other operators are 
     * == - equal to
@@ -45,18 +50,18 @@ int main() {
 
    int a = 5, b = 5, c = 10;
 
-    printf("%d == %d is %d \n", a, b, a == b);
-    printf("%d == %d is %d \n", a, c, a == c);
-    printf("%d > %d is %d \n", a, b, a > b);
-    printf("%d > %d is %d \n", a, c, a > c);
-    printf("%d < %d is %d \n", a, b, a < b);
-    printf("%d < %d is %d \n", a, c, a < c);
+    // printf("%d == %d is %d \n", a, b, a == b);
+    // printf("%d == %d is %d \n", a, c, a == c);
+    // printf("%d > %d is %d \n", a, b, a > b);
+    // printf("%d > %d is %d \n", a, c, a > c);
+    // printf("%d < %d is %d \n", a, b, a < b);
+    // printf("%d < %d is %d \n", a, c, a < c);
     printf("%d != %d is %d \n", a, b, a != b);
     printf("%d != %d is %d \n", a, c, a != c);
-    printf("%d >= %d is %d \n", a, b, a >= b);
-    printf("%d >= %d is %d \n", a, c, a >= c);
-    printf("%d <= %d is %d \n", a, b, a <= b);
-    printf("%d <= %d is %d \n", a, c, a <= c);
+    // printf("%d >= %d is %d \n", a, b, a >= b);
+    // printf("%d >= %d is %d \n", a, c, a >= c);
+    // printf("%d <= %d is %d \n", a, b, a <= b);
+    // printf("%d <= %d is %d \n", a, c, a <= c);
 
     //logical operators.
     /*&&
@@ -72,7 +77,7 @@ int main() {
 				If c = 5 then, expression !(c==5) equals to 0.
     */
 
-   int ade = 5, kunle = 5, ayo = 10;
+   int ade = 5, kunle = 5, ayo = 10; 
 
     int fee = (ade == kunle) && (ayo > kunle);
     printf("(ade == kunle) && (ayo > kunle) is %d \n", fee);
@@ -98,9 +103,13 @@ int main() {
     //the comma link related operations together.
 
     //sizeof operatiors.
-    int l;
+
+
+    
+    int l; 
 
     printf("size of l = %lu bytes\n", sizeof(l));
+    
 
     return 0;
 }

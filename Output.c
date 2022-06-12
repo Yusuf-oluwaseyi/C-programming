@@ -8,7 +8,7 @@
  */
 int main() {
 
-    int age = 
+    int age =  
 
     printf("Please enter your desired age: \n");
 

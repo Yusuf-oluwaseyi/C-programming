@@ -7,19 +7,21 @@
  */
 int main() {
 
-    int age = 21;
+    // int age = 21;
 
-    printf("%d", age);
+    // printf("%d", age);
 
-    double number = 34.5;
-    printf("\n%lf", number);
+    // double number = 34.5;
+    // printf("\n%.3lf", number);
 
-    float cars = 25.4;
-    printf("\n%.2f", cars);
+    // float cars = 25.4;
+    // printf("\n%.2f", cars);
 
-    printf("\nPrint size of double = %zu", sizeof (number));
+    // printf("\nPrint size of double = %zu", sizeof (number));
+    
 
-    short a;
+
+    short int;
     long b;
     long long c;
     long double d;
