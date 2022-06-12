@@ -28,8 +28,18 @@ int main() {
 
 
     printf("Your double number is %lf\n", number);
-    printf("Your garde is %c", grade);
+    printf("Your grade is %c\n", grade);
 
+    /*Taking multiple values*/
+
+    double height;
+    char letter;
+
+    printf("Enter your values: \n");
+    scanf("%lf, %c", &height, &letter);
+
+    printf("Your height is %lf \n", height);
+    printf("\nYour letter is %c", letter);
 
     return 0;
 }
