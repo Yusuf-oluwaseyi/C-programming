@@ -14,7 +14,21 @@ int main() {
 
     scanf("%d", &age);
 
-    printf("You are %d year old", age);
+    printf("You are %d year old\n", age);
+
+    double number;
+    char grade;
+
+    printf("Enter double number: \n");
+    scanf("%lf", &number);
+
+
+    printf("What is your grade: \n");
+    scanf("\n%c", &grade);
+
+
+    printf("Your double number is %lf\n", number);
+    printf("Your garde is %c", grade);
 
 
     return 0;
