@@ -8,11 +8,14 @@
 int main () {
 
     // with for loop
-    for (i = 0; i <= 10; i++) {
-        if (i == 3) {
-            break;
-        }
+    int i;
+
+    for (i = 2; i <= 10; i++) {
+        // if (i == 3) {
+        //     break;
+        // }
         printf("Your number is %d\n", i);
+        break;
 
     }
 
