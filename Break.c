@@ -21,7 +21,7 @@ int main () {
 
     // for while loop
 
-    while(1) {
+   /* while(1) {
         // printing positive and negative integer
          int number;
         printf("Enter a number: \n");
@@ -32,6 +32,15 @@ int main () {
          }
         printf("%d\n", number);
     }
+    */
+
+   // continue
+   for (int i = 1; i < 5; i++) {
+    if (i == 3) {
+        continue;
+    }
+    printf("%d is not 3\n", i);
+   }
     
 
     return 0;
