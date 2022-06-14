@@ -41,6 +41,24 @@ int main () {
     }
     printf("%d is not 3\n", i);
    }
+
+//    another example
+
+
+    while (1)
+    {
+        int number;
+
+        printf("Enter a number: \n");
+        scanf("%d\n", &number);
+        if (number <= 0) {
+            break;
+        }
+        if ((number % 2) != 0) {
+            continue;
+        }
+        printf("%d\n,", number);
+    }
     
 
     return 0;
