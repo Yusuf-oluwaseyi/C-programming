@@ -39,3 +39,5 @@ int main() {
     return 0;
 }
 */
+
+// if the function is written after the main, it needs the parameters.
