@@ -21,3 +21,11 @@ We have used address numerous times while using the scanf() function.
 */
 
 // C pointers.
+/*
+Pointers (pointer variables) are special variables that are used to store addresses rather than values.
+
+pointer syntax
+*/
+int *p;
+int* p;
+int *p1, *p2;
