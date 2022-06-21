@@ -24,9 +24,9 @@ The variables declared inside a block are automatic or local variables.
 The local variables exist only inside the block in which it is declared.
 */
 // The below code i isn't declared so you get an error
-int main(void) {
+/*int main(void) {
 
-    int i;
+    // int i;
   
   for (int i = 0; i < 5; ++i) {
      printf("C programming\n");
@@ -36,6 +36,12 @@ int main(void) {
   printf("%d", i);  
   return 0;
 }
-
+*/
 // by declaring i in the code it can the work.
+
+// Global varialbe.
+/*
+Variables that are declared outside of all functions are known as external or global variables.
+They are accessible from any function inside the program.
+*/
 
