@@ -9,7 +9,7 @@
 
 We have used address numerous times while using the scanf() function.
 */
-int main()
+/*int main()
 {
   int var = 5;
   printf("var: %d\n", var);
@@ -18,3 +18,6 @@ int main()
   printf("address of var: %p", &var);  
   return 0;
 }
+*/
+
+// C pointers.
