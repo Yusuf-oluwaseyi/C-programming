@@ -31,8 +31,24 @@ int* p;
 int *p1, *p2;
 
 // Assigning addresses to pointers.
-int* pc, c;
+int *pc, c;
 c = 5;
 pc = &c;
 
 // Here, 5 is assigned to the c variable. And, the address of c is assigned to the pc pointer.
+
+// Get Value of Thing Pointed by Pointers
+
+To get the value of the thing pointed by the pointers, we use the * operator. For example:
+
+int* pc, c;
+c = 5;
+pc = &c;
+printf("%d", *pc);   // Output: 5
+
+Here, the address of c is assigned to the pc pointer. To get the value stored in that address, we used *pc.
+
+Note: In the above example, pc is a pointer, not *pc. You cannot and should not do something like *pc = &c;
+
+By the way, * is called the dereference operator (when working with pointers). 
+It operates on a pointer and gives the value stored in that pointer.
