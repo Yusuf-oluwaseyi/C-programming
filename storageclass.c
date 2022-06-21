@@ -45,7 +45,7 @@ Variables that are declared outside of all functions are known as external or gl
 They are accessible from any function inside the program.
 */
 
-void display();
+/*void display();
 
 int n = 5;  // global variable
 
@@ -61,3 +61,19 @@ void display()
     ++n;   
     printf("n = %d", n);
 }
+*/
+
+Register Variable
+
+The register keyword is used to declare register variables. 
+Register variables were supposed to be faster than local variables.
+
+However, modern compilers are very good at code optimization, 
+and there is a rare chance that using register variables will make your program faster.
+
+Unless you are working on embedded systems where you know how to optimize code for the given application, 
+there is no use of register variables.
+
+static variable 
+The value of a static variable persists until the end of the program.
+It is used by using th static keyword.
