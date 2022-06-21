@@ -45,3 +45,19 @@ Variables that are declared outside of all functions are known as external or gl
 They are accessible from any function inside the program.
 */
 
+void display();
+
+int n = 5;  // global variable
+
+int main()
+{
+    ++n;     
+    display();
+    return 0;
+}
+
+void display()
+{
+    ++n;   
+    printf("n = %d", n);
+}
