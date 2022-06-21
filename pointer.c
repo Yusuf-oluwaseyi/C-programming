@@ -29,3 +29,10 @@ pointer syntax
 int *p;
 int* p;
 int *p1, *p2;
+
+// Assigning addresses to pointers.
+int* pc, c;
+c = 5;
+pc = &c;
+
+// Here, 5 is assigned to the c variable. And, the address of c is assigned to the pc pointer.
